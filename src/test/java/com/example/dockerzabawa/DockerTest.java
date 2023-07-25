@@ -20,7 +20,7 @@ class DockerTest {
     void shouldGet() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("get"));
+                .andExpect(content().string("get ogolny"));
     }
 
 }

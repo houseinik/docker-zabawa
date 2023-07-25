@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Docker {
-    @GetMapping()
+    @GetMapping
     public ResponseEntity<String> cos(){
         return ResponseEntity.ok("get ogolny");
     }
